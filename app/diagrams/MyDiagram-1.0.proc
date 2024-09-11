@@ -24,6 +24,14 @@
           <expectedDuration xmi:type="expression:Expression" xmi:id="_tToOM2_WEe-bf_YUcHzIaQ" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
       </elements>
+      <elements xmi:type="process:Lane" xmi:id="_DGA1AG_aEe-bf_YUcHzIaQ" name="Lane1">
+        <elements xmi:type="process:EndEvent" xmi:id="_HST2UG_aEe-bf_YUcHzIaQ" name="End1">
+          <dynamicLabel xmi:type="expression:Expression" xmi:id="_HSUdYW_aEe-bf_YUcHzIaQ" name="" content="" returnTypeFixed="true"/>
+          <dynamicDescription xmi:type="expression:Expression" xmi:id="_HSUdYG_aEe-bf_YUcHzIaQ" name="" content="" returnTypeFixed="true"/>
+          <stepSummary xmi:type="expression:Expression" xmi:id="_HSUdYm_aEe-bf_YUcHzIaQ" name="" content="" returnTypeFixed="true"/>
+        </elements>
+      </elements>
+      <elements xmi:type="process:Lane" xmi:id="_DonLwG_aEe-bf_YUcHzIaQ" name="Lane2"/>
       <formMapping xmi:type="process:FormMapping" xmi:id="_tToONG_WEe-bf_YUcHzIaQ">
         <targetForm xmi:type="expression:Expression" xmi:id="_tToONW_WEe-bf_YUcHzIaQ" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
       </formMapping>
@@ -90,6 +98,31 @@
           <styles xmi:type="notation:LineStyle" xmi:id="_tTo1P2_WEe-bf_YUcHzIaQ"/>
           <styles xmi:type="notation:FillStyle" xmi:id="_tTo1QG_WEe-bf_YUcHzIaQ"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tTo1QW_WEe-bf_YUcHzIaQ"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_DGbEsG_aEe-bf_YUcHzIaQ" type="3007" element="_DGA1AG_aEe-bf_YUcHzIaQ">
+          <children xmi:type="notation:DecorationNode" xmi:id="_DGbrwG_aEe-bf_YUcHzIaQ" type="5007"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_DGbrwW_aEe-bf_YUcHzIaQ" type="7002">
+            <children xmi:type="notation:Shape" xmi:id="_HSVEcG_aEe-bf_YUcHzIaQ" type="3003" element="_HST2UG_aEe-bf_YUcHzIaQ" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_HSVEcm_aEe-bf_YUcHzIaQ" type="5025">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_HSVEc2_aEe-bf_YUcHzIaQ" y="5"/>
+              </children>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HSVEcW_aEe-bf_YUcHzIaQ" x="961" y="95"/>
+            </children>
+          </children>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_DGbEsW_aEe-bf_YUcHzIaQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_DGbEsm_aEe-bf_YUcHzIaQ" fontName="Segoe UI"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_DGbEs2_aEe-bf_YUcHzIaQ"/>
+          <styles xmi:type="notation:FillStyle" xmi:id="_DGbrwm_aEe-bf_YUcHzIaQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DGbEtG_aEe-bf_YUcHzIaQ" x="71" y="174"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Dony0G_aEe-bf_YUcHzIaQ" type="3007" element="_DonLwG_aEe-bf_YUcHzIaQ">
+          <children xmi:type="notation:DecorationNode" xmi:id="_Dony1W_aEe-bf_YUcHzIaQ" type="5007"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_Dony1m_aEe-bf_YUcHzIaQ" type="7002"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_Dony0W_aEe-bf_YUcHzIaQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Dony0m_aEe-bf_YUcHzIaQ" fontName="Segoe UI"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_Dony02_aEe-bf_YUcHzIaQ"/>
+          <styles xmi:type="notation:FillStyle" xmi:id="_Dony12_aEe-bf_YUcHzIaQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Dony1G_aEe-bf_YUcHzIaQ" x="48" y="500" width="1297" height="100"/>
         </children>
       </children>
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_tTo1Qm_WEe-bf_YUcHzIaQ"/>
